@@ -24,13 +24,8 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
         {
-            Move();
-            
+            Move();           
         }
-    
-
-
-
     }
     private void Move()
     {

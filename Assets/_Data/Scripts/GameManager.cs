@@ -46,12 +46,9 @@ public class GameManager : MonoBehaviour
     {
         if (life > 0)
         {
-            life--;
-            
+            life--;          
             lifeObject.transform.GetChild(life).gameObject.SetActive(false); 
-            
             Debug.Log(life);
-
         }
         else if (life < 1)
         {
